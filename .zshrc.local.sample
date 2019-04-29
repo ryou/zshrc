@@ -1,0 +1,9 @@
+# -------------------------------------
+# Gitプロンプト
+# -------------------------------------
+
+# push忘れ防止のために、下記リポジトリのzshrc.shを読み込むようにする
+# https://github.com/olivierverdier/zsh-git-prompt
+source path/to/zshrc.sh
+# an example prompt
+PROMPT='%B%m%~%b$(git_super_status) %# '
